@@ -7,8 +7,6 @@
 #include <string>
 #include <set>
 
-// "name", "epoch", "version", "release", "arch", "disttag", "buildtime", "source"
-
 int main(int argc, char* argv[])
 {
     if (argc != 3)
@@ -43,9 +41,6 @@ int main(int argc, char* argv[])
             {
                 highVersionInLeft.insert(pak1);
             }
-        }
-        for (auto& l : f) {
-            std::cout << l.name << '\n';
         }
         json result = {
             {"left", left},
