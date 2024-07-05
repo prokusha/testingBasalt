@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(branchApp)
 
 # Set the C++ standard
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Set the include directories
@@ -19,7 +19,7 @@ add_executable(branchApp
 
 # Link the executable to the shared library
 target_link_libraries(branchApp
-    my_library
+    branch curl
 )
 
 # Set the output directory for the executable

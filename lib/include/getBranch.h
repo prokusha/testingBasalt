@@ -2,6 +2,7 @@
 #include <nlohmann/json.hpp>
 #include <unordered_set>
 #include <string>
+#include <stdexcept>
 
 using json = nlohmann::json;
 

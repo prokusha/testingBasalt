@@ -45,7 +45,10 @@ int main(int argc, char* argv[])
             }
         }
 
-        json result = {{"high version left", highVersionInLeft}};
+        json result = {
+            {"left", left},
+            {"right", right},
+            {"high version left", highVersionInLeft}};
         std::cout << result.dump(4);
 
     } catch (const std::invalid_argument& e)
