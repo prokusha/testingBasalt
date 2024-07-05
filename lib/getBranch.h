@@ -6,11 +6,12 @@
 using json = nlohmann::json;
 
 static const std::string url = "https://rdb.altlinux.org/api/export/branch_binary_packages/";
+static const std::unordered_set<std::string> branchs = {
+    "sisyphus", "p9", "p10", "p11"
+};
 
-class Branch
+namespace Branch
 {
-
-public:
-    Branch() {}
-    json getBranch(std::string branch) const;
+    json getBranch(std::string branch);
+    bool checkBranch(std::string branch);
 };
