@@ -15,3 +15,5 @@ cmake "$PROJECT_DIR"
 cmake --build .
 
 sudo cmake --install .
+
+sudo ldconfig
