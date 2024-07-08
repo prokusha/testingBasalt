@@ -20,7 +20,7 @@ For install the package on the system, you need to run the following commands:
 	chmod +x ./install.sh
 	sudo ./install.sh
 
-`install.sh` simply copies the contents of the build folder to /usr/bin and /usr/lib
+`install.sh` simply copies the contents of the build folder to `/usr/bin` and `/usr/lib`
 
 # Usage
 
