@@ -6,18 +6,12 @@ First of all, install the necessary packages:
 
 	sudo apt-get install cmake nlohmann-json-devel libcurl-devel gcc-c++ rpmbuild-helper
 
-Next, run the following commands to build the RPM package:
+Next, run the following commands to build:
 
 	mkdir build && cd build
 	cmake ..
-	cmake --build .
-	cpack -G RPM
+	make
 
-Once in the build folder, you will find the file like
-
-	branchApp-X.X.X-Linux.rpm
-
-which can be used for installation.
 
 # Installation
 
