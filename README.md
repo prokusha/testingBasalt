@@ -25,6 +25,7 @@ For install the package on the system, you need to run the following commands:
 # Usage
 
 `branchApp` accepts two parameters: branch1 and branch2
+
 To get a list of available branches, run `branchApp` without parameters
 
 # TODO
