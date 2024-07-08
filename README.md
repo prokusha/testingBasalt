@@ -15,7 +15,14 @@ Next, run the following commands to build:
 
 # Installation
 
-For install the package on the system, you need to run the following command:
+For install the package on the system, you need to run the following commands:
 
-	sudo rmp --install /path/to/branchApp-X.X.X-Linux.rpm
+	chmod +x ./install.sh
+	sudo ./install.sh
+
+install.sh simply copies the contents of the build folder to /usr/bin and /usr/lib
+
+# TODO
+
+Figure out the RPM build and do it the right way, jesus christ
 
