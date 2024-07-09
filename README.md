@@ -4,7 +4,7 @@
 
 First of all, install the necessary packages:
 
-	sudo apt-get install cmake nlohmann-json-devel libcurl-devel gcc-c++
+	sudo apt-get install cmake nlohmann-json-devel libcurl-devel gcc-c++ librpm-devel
 
 Next, run the following commands to build:
 

@@ -1,5 +1,5 @@
 #include "../include/common.h"
-#include <rpm/rpmver.h>
+#include <rpm/rpmvercmp.h>
 
 bool checkVersion(const std::string& v1, const std::string& v2)
 {
