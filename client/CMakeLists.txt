@@ -10,7 +10,7 @@ add_executable(branchApp
     src/common.cpp
 )
 
-target_link_libraries(branchApp branch)
+target_link_libraries(branchApp branch rpmio)
 
 set_target_properties(branchApp PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin

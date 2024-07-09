@@ -43,7 +43,5 @@ struct Package
 
 NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(Package, name, epoch, version, release, arch, disttag, buildtime, source);
 
-std::vector<int> parseVersion(const std::string& version);
-
 bool checkVersion(const std::string& v1, const std::string& v2);
 
